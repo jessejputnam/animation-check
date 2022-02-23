@@ -10,12 +10,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
 }
 
 .anim__container {
   height: 200px;
   width: 200px;
-  border: solid 1px black;
+  border: ridge 4px rgb(173, 0, 0);
+  background-color: rgba(168, 73, 73, 0.521);
   overflow: hidden;
 }
 
