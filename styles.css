@@ -1,0 +1,38 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anim__container {
+  height: 200px;
+  width: 200px;
+  border: solid 1px black;
+  overflow: hidden;
+}
+
+.star__img {
+  position: relative;
+
+  transition: 1.5s;
+  top: var(--top-start);
+  left: var(--left-start);
+}
+
+footer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+}
